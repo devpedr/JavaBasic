@@ -1,7 +1,6 @@
 package src.main.java.list.Pesquisa;
-import javax.crypto.spec.PSource;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.*;
 public class SomaNumeros {
 
     private List<Integer> listNumber;
