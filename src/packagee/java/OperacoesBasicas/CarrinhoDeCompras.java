@@ -1,4 +1,4 @@
-package src.main.java.list.OperacoesBasicas;
+package src.packagee.java.OperacoesBasicas;
 
 import java.util.*;
 
