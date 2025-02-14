@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Idade {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         String hoje = LocalDate.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         int year = LocalDate.now().getYear();
         int month = LocalDate.now().getMonthValue();
@@ -26,16 +26,16 @@ public class Idade {
         int valorMes = month - mes;
         int valorDay = day - dia;
 
-        if (dia<0){
+        if (dia < 0) {
             valorMes--;
-            dia +=30;
+            dia += 30;
         }
-        if (mes<0){
+        if (mes < 0) {
             valorMes--;
-            mes+=12;
+            mes += 12;
         }
         int totalDays = (valorAno * 365) + (valorMes * 30) + valorDay;
-        System.out.println("A idade expressa em dias desde "+dia+"/"+mes+"/"+ano+" é:"+totalDays+" dias");
+        System.out.println("A idade expressa em dias desde " + dia + "/" + mes + "/" + ano + " é:" + totalDays + " dias");
 
     }
 

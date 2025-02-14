@@ -3,7 +3,7 @@ package src.exercice.listajavacondicionais.Java02;
 import java.util.Scanner;
 
 public class NomeSexoCivil {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int years = 0;
 
@@ -18,11 +18,11 @@ public class NomeSexoCivil {
         String estadoCivilMaiusculo = estadoCivil.toUpperCase();
 
 
-        if(sexoMaiusculo.equals("F") && estadoCivilMaiusculo.equals("CASADA")){
+        if (sexoMaiusculo.equals("F") && estadoCivilMaiusculo.equals("CASADA")) {
             System.out.printf("Quanto tempo de casada em anos: ");
             years = sc.nextInt();
         }
-        System.out.println(nome+" você é do sexo "+sexoMaiusculo+" e é "+estadoCivilMaiusculo+" a "+years+" ano(s)");
+        System.out.println(nome + " você é do sexo " + sexoMaiusculo + " e é " + estadoCivilMaiusculo + " a " + years + " ano(s)");
 
     }
 }
