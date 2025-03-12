@@ -1,4 +1,4 @@
-package src.exercice.listajavaestruturarepetição;
+package src.exercice.listajavaestruturarepetição.Java15;
 import java.util.Scanner;
 
 public class Java15 {
