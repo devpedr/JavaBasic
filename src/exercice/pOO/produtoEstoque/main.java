@@ -1,4 +1,6 @@
 package src.exercice.pOO.produtoEstoque;
+import src.exercice.pOO.produtoEstoque.entites.Product;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,11 +12,11 @@ public class main {
         Product product = new Product();
 
         System.out.println("Enter product data: ");
-        System.out.printf("Name : ");
+        System.out.print("Name : ");
         product.name = sc.nextLine();
-        System.out.printf("Price : ");
+        System.out.print("Price : ");
         product.price = sc.nextDouble();
-        System.out.printf("Quantity : ");
+        System.out.print("Quantity : ");
         product.quantiy = sc.nextInt();
         System.out.println(product);//toString
 

@@ -1,4 +1,4 @@
-package src.exercice.pOO.produtoEstoque;
+package src.exercice.pOO.produtoEstoque.entites;
 
 public class Product {
     public String name;
