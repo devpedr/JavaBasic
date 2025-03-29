@@ -19,15 +19,14 @@ public class Main {
         students.second = sc.nextDouble();
         System.out.print("DIGITE A TERCEIRA NOTA: ");
         students.three = sc.nextDouble();
-        System.out.print(students);
+        System.out.print("FINAL GRADE: " + String.format("%.2f",students.somarNota()));
 
         if (students.somarNota() >= 60 ) {
             System.out.println("\nPASS");
         }
         else {
             System.out.println("\nFAILED");
-            double missing = 60 - students.somarNota();
-            System.out.printf("MISSING: " + String.format("%.2f",missing) + " POINTS");
+            System.out.printf("MISSING: " + String.format("%.2f",students.missingPoints()) + " POINTS");
         }
         sc.close();
 

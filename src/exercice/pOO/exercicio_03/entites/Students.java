@@ -9,9 +9,8 @@ public class Students {
     public double somarNota(){
         return first + second + three;
     }
-    public String toString() {
-
-        return "FINAL GRADE: " + String.format("%.2f",somarNota());
+    public double missingPoints() {
+        return 60 - somarNota();
     }
 }
 
