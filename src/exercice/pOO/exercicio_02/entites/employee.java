@@ -7,7 +7,8 @@ public class employee {
 
 
     public double netSalary(){
-    return grossSalary - tax;
+
+        return grossSalary - tax;
     }
 
     public void increaseSalary(double percentage){
@@ -15,6 +16,6 @@ public class employee {
     }
 
     public String toString() {
-        return name + ", " + "$" + netSalary();
+        return name + ", $" +String.format("%.2f",netSalary());
     }
 }

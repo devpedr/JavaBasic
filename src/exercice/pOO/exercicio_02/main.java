@@ -12,11 +12,11 @@ public class main {
         Scanner sc = new Scanner(System.in);
 
         employee emp =new employee();
-        System.out.printf("Name: ");
+        System.out.print("Name: ");
         emp.name = sc.nextLine();
-        System.out.printf("Gross Salary: ");
+        System.out.print("Gross Salary: ");
         emp.grossSalary = sc.nextDouble();
-        System.out.printf("Tax: ");
+        System.out.print("Tax: ");
         emp.tax = sc.nextDouble();
 
         System.out.println("Employee: " + emp);
