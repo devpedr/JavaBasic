@@ -1,4 +1,4 @@
-package src.exercice.pOO.applicationV1;
+package src.exercice.pOO.application64.applicationV1;
 import java.util.Locale;
 import java.util.Scanner;
 public class Program {

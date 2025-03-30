@@ -1,4 +1,4 @@
-package src.exercice.pOO.applicationV1_2.entites;
+package src.exercice.pOO.application64.applicationV1_2.entites;
 
 public class Triangle02 { // Classe pode conter membros e nesse exercicio so contém atributos (dados/campos)
     public double a;

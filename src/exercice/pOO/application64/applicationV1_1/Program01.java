@@ -1,11 +1,11 @@
 /*Criando uma classe com três atributos para representar melhor o triângulo
 * Classe criada em: ..entites/Triangle.java*/
 
-package src.exercice.pOO.applicationV1_1;
+package src.exercice.pOO.application64.applicationV1_1;
 import java.util.Locale;
 import java.util.Scanner;
 
-import src.exercice.pOO.applicationV1_1.entites.Triangle01;
+import src.exercice.pOO.application64.applicationV1_1.entites.Triangle01;
 
 public class Program01 {
     public static void main(String[] args) {
