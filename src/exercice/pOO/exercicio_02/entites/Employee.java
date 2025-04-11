@@ -1,6 +1,6 @@
 package src.exercice.pOO.exercicio_02.entites;
 
-public class employee {
+public class Employee {
     public String name;
     public double grossSalary;
     public double tax;

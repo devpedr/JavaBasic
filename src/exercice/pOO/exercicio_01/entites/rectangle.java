@@ -1,4 +1,4 @@
-package src.exercice.pOO.Exercicio_01.entites;
+package src.exercice.pOO.exercicio_01.entites;
 
 public class rectangle {
     public double width;

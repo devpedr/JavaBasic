@@ -1,6 +1,6 @@
-package src.exercice.pOO.Exercicio_01;
+package src.exercice.pOO.exercicio_01;
 
-import src.exercice.pOO.Exercicio_01.entites.rectangle;
+import src.exercice.pOO.exercicio_01.entites.rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;
