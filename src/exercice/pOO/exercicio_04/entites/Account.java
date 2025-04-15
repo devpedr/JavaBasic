@@ -5,10 +5,10 @@ public class Account {
     private String holder;
     private double balance;
 
-    public Account(int number, String holder, double balance) {
+    public Account(int number, String holder, double initialDeposit) {
         this.number = number;
         this.holder = holder;
-        this.balance = balance;
+        deposit(initialDeposit); // Regra de negocio, pois se a regra do metodo deposit mudar o contrutor ja esta preparado para mundanca
     }
 
     public Account(int number, String holder) {
@@ -37,11 +37,11 @@ public class Account {
 
     }
     public void withdraw(double amount) {
-        balance -= amount + 5 ;
+        balance -= amount + 5.0 ;
     }
 
     public String toString() {
 
-        return "Account " + number + " Holder: " + holder + String.format("%.2f", balance);
+        return "Account " + number + ", Holder: " + holder + String.format(" $%.2f ", balance);
     }
 }

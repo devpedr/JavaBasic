@@ -22,20 +22,20 @@ public class Main {
 
         if (option == 'y') {
             System.out.print("Enter initial deposit value: ");
-            double balance = sc.nextDouble();
-            account  = new Account(number, holder, balance);
+            double initialDeposit = sc.nextDouble();
+            account  = new Account(number, holder, initialDeposit);
         }
         else {
             account  = new Account(number, holder);
         }
 
-        System.out.println("Account data: \n" + account);
+        System.out.println("\nAccount data: \n" + account);
 
-        System.out.print("Enter a deposit value: ");
+        System.out.print("\nEnter a deposit value: ");
         account.deposit(sc.nextDouble());
         System.out.println("Updated account data: \n" + account);
 
-        System.out.print("Enter a withdraw value: ");
+        System.out.print("\nEnter a withdraw value: ");
         account.withdraw(sc.nextDouble());
         System.out.println("Updated account data: \n" + account);
 
