@@ -54,16 +54,16 @@ public class Alturas {
 
             }
         }
-        double perceTot = nmenores * 100 / n;
-        System.out.printf("\nPorcetagem de pessoas com menos de 16 anos: %.2f%%\n", perceTot);
-        System.out.print("Pessoas: ");
+        double perceTot = (nmenores * 100.0) / n;
+        System.out.printf("\nPorcetagem de pessoas com menos de 16 anos: %.1f%%%n", perceTot);
+        System.out.print("Pessoas menores de 16 anos: \n");
 
         for (int i = 0; i < n; i++) {
             if (vet[i].getYears() < 16) {
-                System.out.print(vet[i].getName()+" ");
+                System.out.println(vet[i].getName());
             }
-
         }
+
         sc.close();
 
     }
